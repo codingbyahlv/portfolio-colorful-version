@@ -19,9 +19,19 @@
     <section class="header-wrap">
       <nav class="nav-wrap">
         <a href="#about" class="nav-link">about & skills</a>
-        <!-- <a href="" class="nav-link">skills</a> -->
         <a href="#work" class="nav-link">work</a>
         <a href="#contact" class="nav-link colored-link">contact</a>
+      </nav>
+      <nav class="menu-btn">
+        <div class="menu-btn-burger"></div>
+      </nav>
+    </section>
+
+    <section class="mobile-menu">      
+      <nav class="mobile-navbar">               
+          <a class="mobile-link" href="#about">about & skills</a>
+          <a class="mobile-link" href="#work">work</a>
+          <a class="mobile-link" href="#contact">contact</a>                                   
       </nav>
     </section>
 
@@ -43,25 +53,21 @@
       <div class="info-cont-wrap">
         <article class="who-cont">
           <h2>who I am</h2>
-          <!-- !!!!!!!!!!BYT KLASSNAMN -->
-          <div class="test">
             <div class="who-cont-txt">
               <h3>Ann-Helen Lausmaa</h3>
               <p class="bold">Frontend developer</p>
               <p>Graduated june 2023, Jensen YH</p>
               <p>Gothenburg, Sweden</p>
             </div>  
-            
             <ul class="who-cont-ul">
               <li>curious</li>
               <li>motivated</li>
               <li>problem solver</li>
               <li>proactive</li>
-              <li>[something]</li>
+              <li>well structured</li>
             </ul>
-          </div>
-        
         </article>
+
         <article class="skills-cont">
           <h2>my skills</h2>
           <div class="skills-cont-icons">
@@ -78,21 +84,23 @@
           </div>
         </article>
       </div>
-
     </section>
+
     <div class="anchor" id="work"></div>
     <section class="work-wrap">
       <div class="work-cont-wrap">
         <div class="work-cont-heading">
           <h2>some of my work</h2>
         </div>
-
         <div class="project-cont">
 
           <article class="alert">
             <h3>OH NO!</h3>
-            <p>This section isn´t finished yet. But don´t worry, you can still look at the 
-              deployed projects and the code on GitHub by pressing these kind of buttons on each project</p>
+            <p>This section isn´t finished yet. More projects are in the pipeline, images are on the way 
+              and all text should be written as well.
+              But don´t worry, you can still look at the deployed 
+              projects and the code on GitHub by pressing these kind of 
+              buttons on each project</p>
             <div class="alert-btns">
                 <p class="alert-btn">Deployed</p>
                 <p class="alert-btn">Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></p>
@@ -100,107 +108,172 @@
           </article>
 
           <article class="project-card">
-            <div class="project-cont-img">
-              <img />
+            <div class="project-cont-img no-img">
+              <iconify-icon icon="carbon:no-image" style="color: white; font-size: 150px;"></iconify-icon>
             </div>
-            <div class="project-cont-txt">
-              <h3>The wedding photographer</h3>
-              <p>School project - individual</p>
-              <p>Some info text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="project-cont-info">
-              <p>html - css - javascript</p>
-              <div class="project-btns">
-                <a href="https://tacit-ornament.surge.sh/"><button>Deployed</button></a>
-                <a href="https://github.com/codingbyahlv/js-project-the-wedding-photographer"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+            <div class="inner-project-cont">
+              <div class="project-cont-txt">
+                <h3>The wedding photographer</h3>
+                <p class="project-subheading">School project - individual</p>
+                <p>Some info text.</p>
+              </div>
+              <div class="project-cont-info">
+                <p>html - css - javascript - json bin - local storage</p>
+                <div class="project-btns">
+                  <a href="https://tacit-ornament.surge.sh/"><button disabled style="background-color: lightgrey;">Deployed</button></a>
+                  <a href="https://github.com/codingbyahlv/js-project-the-wedding-photographer"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+                </div>
               </div>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-cont-img">
-              <img />
+              <img src="./img/jmdb.png"/>
             </div>
-            <div class="project-cont-txt">
-              <h3>JMDB</h3>
-              <p>School project - group</p>
-              <p>Some info text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="inner-project-cont">
+              <div class="project-cont-txt">
+                <h3>JMDB</h3>
+                <p class="project-subheading">School project - group</p>
+                <p>Some info text.</p>
+              </div>
+              <div class="project-cont-info">
+                <p>html - css - javascript - react - local storage - api</p>
+                <div class="project-btns">
+                  <a href="https://jmbd-project.herokuapp.com/"><button>Deployed</button></a>
+                  <a href="https://github.com/codingbyahlv/project-group1-react"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+                </div>
+              </div>
             </div>
-            <div class="project-cont-info">
-              <p>html - css - javascript - react</p>
-              <div class="project-btns">
-                <a href="https://jmbd-project.herokuapp.com/"><button>Deployed</button></a>
-                <a href="https://github.com/codingbyahlv/project-group1-react"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+          </article>
+
+
+          <article class="project-card">
+            <div class="project-cont-img">
+              <img src="./img/eCommerce-desktop2.png"/>
+            </div>
+            <div class="inner-project-cont">
+              <div class="project-cont-txt">
+                <h3>eCommerce</h3>
+                <p class="project-subheading">School project - individual</p>
+                <p>E-commerce prototype in Figma with UX/UI focus.</p>
+              </div>
+              <div class="project-cont-info">
+                <p>figma</p>
+                <div class="project-btns">
+                  <a href="https://www.figma.com/proto/D1pLB4wWHo3gRw9FoRm2Hm/eCommerce?node-id=1%3A654&scaling=scale-down&page-id=1%3A653"><button>Desktop</button></a>
+                  <a href="https://www.figma.com/proto/D1pLB4wWHo3gRw9FoRm2Hm/eCommerce?node-id=301%3A1705&scaling=scale-down&page-id=301%3A1498"><button>Mobile</button></a>
+                </div>
               </div>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-cont-img">
-              <img />
+              <img src="./img/todo.png">
             </div>
-            <div class="project-cont-txt">
-              <h3>The funky art gallery</h3>
-              <p>School project - group</p>
-              <p>Some info text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="project-cont-info">
-              <p>html - css - javascript</p>
-              <div class="project-btns">
-                <a href="https://codingbyahlv.github.io/first-js-project-group7/"><button>Deployed</button></a>
-                <a href="https://github.com/codingbyahlv/first-js-project-group7"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+            <div class="inner-project-cont">
+              <div class="project-cont-txt">
+                <h3>Todo</h3>
+                <p class="project-subheading">School project - group</p>
+                <p>Some info text.</p>
+              </div>
+              <div class="project-cont-info">
+                <p>html - css - javascript - node.js - mongoose - mongoDB</p>
+                <div class="project-btns">
+                  <a href=""><button disabled style="background-color: lightgrey;">Deployed</button></a>
+                  <a href="https://github.com/codingbyahlv/first-api-project-group3.git"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+                </div>
               </div>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-cont-img">
-              <img />
+              <img src="./img/funky-art-gallery-intro2.png">
             </div>
-            <div class="project-cont-txt">
-              <h3>The spa</h3>
-              <p>School project - group</p>
-              <p>Our first bigger html/css project in school. My responsibility was the first page and the main styling</p>
-            </div>
-            <div class="project-cont-info">
-              <p>html - css</p>
-              <div class="project-btns">
-                <a href="https://codingbyahlv.github.io/first-html-css-project-group10/"><button>Deployed</button></a>
-                <a href="https://github.com/codingbyahlv/first-html-css-project-group10"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+            <div class="inner-project-cont">
+              <div class="project-cont-txt">
+                <h3>The funky art gallery</h3>
+                <p class="project-subheading">School project - group</p>
+                <p>Some info text.</p>
+              </div>
+              <div class="project-cont-info">
+                <p>html - css - javascript</p>
+                <div class="project-btns">
+                  <a href="https://codingbyahlv.github.io/first-js-project-group7/"><button>Deployed</button></a>
+                  <a href="https://github.com/codingbyahlv/first-js-project-group7"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+                </div>
               </div>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-cont-img">
-              <img />
+              <img src="./img/star-wars.png">
             </div>
-            <div class="test2">
+            <div class="inner-project-cont">
+              <div class="project-cont-txt">
+                <h3>Stars Wars</h3>
+                <p class="project-subheading">School project - individual</p>
+                <p>My first API experience. Connection to the api and render the movies. 
+                  Clicking on the cards displays more information about the actors.  </p>
+              </div>
+              <div class="project-cont-info">
+                <p>html - css - javascript - api</p>
+                <div class="project-btns">
+                  <a href="https://codingbyahlv.github.io/first-api-assignment//"><button>Deployed</button></a>
+                  <a href="https://github.com/codingbyahlv/first-api-assignment.git"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-cont-img">
+              <img src="./img/spa-intro.png"/>
+            </div>
+            <div class="inner-project-cont">
+              <div class="project-cont-txt">
+                <h3>The spa</h3>
+                <p class="project-subheading">School project - group</p>
+                <p>Our first bigger html/css project in school. My responsibility was the first page and the main styling. No functionality at this page.</p>
+              </div>
+              <div class="project-cont-info">
+                <p>html - css</p>
+                <div class="project-btns">
+                  <a href="https://codingbyahlv.github.io/first-html-css-project-group10/"><button>Deployed</button></a>
+                  <a href="https://github.com/codingbyahlv/first-html-css-project-group10"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-cont-img">
+              <img src="./img/surf-ab.png"/>
+            </div>
+            <div class="inner-project-cont">
               <div class="project-cont-txt">
                 <h3>Surf ab</h3>
-                <p>School project - individual</p>
+                <p class="project-subheading">School project - individual</p>
                 <p>My first school assignment using html/css.</p>
               </div>
               <div class="project-cont-info">
                 <p>html - css</p>
                 <div class="project-btns">
                   <a href="https://codingbyahlv.github.io/first-html-css-assignment/"><button>Deployed</button></a>
-                  <a href=""><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
+                  <a href="https://github.com/codingbyahlv/first-html-css-assignment.git"><button>Code <iconify-icon icon="bxl:github" style="font-size: 20px;"></iconify-icon></button></a>
                 </div>
               </div>
             </div>
           </article>
-
         </div>
       </div>
     </section>
  
     <section class="contact-wrap" id="contact">
       <div class="contact-cont-wrap">
-
         <div class="contact-cont-ways">
           <h2>Two ways - your choice</h2>
           <div class="contact-cont-icons">
@@ -213,24 +286,12 @@
               <h4>E-mail</h4>
             </a>
           </div>
-        </div>
-
-        <!-- <div class="contact-cont-bubble tri-right btm-left-in"> -->
-          <div class="contact-cont-bubble">
-          <!-- <div class="talktext"> -->
-            <h2>get in touch</h2>
-          <!-- </div> -->
-        </div>
-
-        <!-- <div class="contact-cont-bubble">
+        </div>      
+        <div class="contact-cont-bubble">
           <h2>get in touch</h2>
-        </div> -->
-
+        </div>
       </div>
     </section>
-
-
-
 
     <script src="./index.js" async defer></script>
   </body>
